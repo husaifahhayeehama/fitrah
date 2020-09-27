@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;1,500&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: rgb(242, 242, 242);
+}
+.container{
+	margin:  auto;
+	padding:  auto;
+	width: 1050px;
+}
+.top-nav{
+	text-align: right;
+}
+/* social media icon goes here */
+.social-media-icon{
+}
+.social-media-icon ul, .navbar ul{
+	margin-top: 10px;	
+}
+.social-media-icon li, .navbar li{
+	list-style-type: none;
+	display: inline;
+	padding: 8px;
+}
+.social-media-icon a, .navbar a{
+	text-decoration: none;
+	color: rgb(97, 97, 97);
+}
+.social-media-icon a:hover{
+	color: rgb(0, 153, 255);
+}
+.navbar{
+	font-family: 'Asap', sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+.navbar li{
+	padding: 0;
+	margin: 0;
+}
+.navbar a, .navbar ul{
+	padding: 15px;
+}
+.navbar a:hover{
+	padding: 15px;
+	background-color: rgb(0, 153, 255);
+	color: rgb(255, 255, 255);
+}
+/* social media icon end here */
+
+
+/*-------------------------------Section one -------------------------------------*/
+.section-one{
+	padding: 10px, 0px, 10px, 0px;
+	width: 1050px;
+	height: 180px;
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+	position: relative;
+}
+.column{
+	margin: 5px;
+	float: left;
+	width: 340px;
+	height: 50px;
+
+}
+.text-image-content{
+	position: absolute;
+	position: relative;
+}
+.text-image-content a{
+	text-decoration: none;
+	list-style-type: none;
+	color: rgb(255, 255, 255);
+}
+.image-text-block{
+  position: absolute;
+  text-align: left;
+  bottom: 30px;
+  right: 20px;
+  left: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.cal-zakat-bar{
+}
+.pay-zakat-bar{
+	
+}
+.log-zakat-bar{
+	
+}
